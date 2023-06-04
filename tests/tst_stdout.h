@@ -47,7 +47,7 @@ TEST(TestStdOut, TestStdOut) {
 
     // открываем оригинал и результат
     char *filename = (char *)malloc(sizeof(char) * 1024);
-    sprintf(filename, "%s/TestSTDOut_output.txt", INPUTDIR);
+    snprintf(filename, 1024, "%s/TestSTDOut_output.txt", INPUTDIR);
     int testFd = open("TestStdOut_TestStdOut.out", O_RDONLY);
     int originFd = open(filename, O_RDONLY);
     free(filename);
