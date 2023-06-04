@@ -90,7 +90,7 @@ TEST(TestStdOut, usingCapture) {
 
     // читаем ожидаемую строку из файла
     char *filename = (char *)malloc(sizeof(char) * 1024);
-    sprintf(filename, "%s/TestSTDOut_output.txt", INPUTDIR);
+    snprintf(filename, 1024, "%s/TestSTDOut_output.txt", INPUTDIR);
 
     std::ifstream f(filename);
     free(filename);
