@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "root.h"
-#include "myfunc.h"
 #include <stdlib.h>
 int main()
 {
