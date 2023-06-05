@@ -1,7 +1,7 @@
 [![CI/CD GitHub Actions](https://github.com/Spooneater/Rep/actions/workflows/test-action.yml/badge.svg)](https://github.com/Spooneater/Ractions/workflows/test-action.yml)
 [![Coverage Status](https://coveralls.io/repos/Spooneater/Rep/badge.svg?branch=main)](https://coveralls.io/github/Spooneater/Rep?branch=main)
-[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=Spooneater_Rep&metric=alert_status)](https://sonarcloud.io/dashboard?id=seekerk_gtest)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=seekerk_ctest&metric=bugs)](https://sonarcloud.io/summary/new_code?id=seekerk_ctest)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=Spooneater_Rep&metric=alert_status)](https://sonarcloud.io/dashboard?id=Spooneater_Rep)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Spooneater_Rept&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Spooneater_Rep)
 [![Code smells](https://sonarcloud.io/api/project_badges/measure?project=Spooneater_Rep&metric=code_smells)](https://sonarcloud.io/dashboard?id=seekerk_gtest)
 
 # Пример работы связки Qt + Google Test (gtest) + QtCreator
